@@ -1,0 +1,18 @@
+$color: aqua;
+
+
+header{
+    background-color: $color;
+    nav{
+        text-align: center;
+        .primer-ancla{
+            color: black;
+        }
+        a{
+            font-family: Arial, Helvetica, sans-serif;
+            &:hover{
+                color: $color;
+            }
+        }
+    }
+}
